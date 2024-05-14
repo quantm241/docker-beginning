@@ -8,4 +8,6 @@
 
 1. Câu lệnh để tạo mới 1 network, tên **my_net**? Network mới được tạo ra thuộc loại nào?
 
-1. Chạy container mysql, container redis (nếu cần) và container project rails đã tạo ở phần trước, cùng kết nối đến network **my_net** vừa tạo. Thêm env để container rails có thể kết nối đến mysql, tạo database và chạy migrate. Viết lại các bước thực hiện (câu lệnh).
+1. Chạy container database (mysql / postgresql / mongodb / redis), và container project đã tạo ở chương 3, các container cùng kết nối đến network **my_net** vừa tạo. \
+Thêm / thay đổi env để container web project có thể kết nối đến datatbase, tạo database và chạy migrate. \
+Viết lại các bước thực hiện (câu lệnh).
