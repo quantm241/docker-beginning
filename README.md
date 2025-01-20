@@ -9,7 +9,7 @@
 ### Docker platform
 
 - Docker cung cấp khả năng đóng gói và chạy ứng dụng trong một môi trường độc lập gọi là **container**
-- Tính cô lập (isolation) và bảo mật -> ccho phép nhiều container chạy đồng thời trên một **host** (Docker host)
+- Tính cô lập (isolation) và bảo mật -> cho phép nhiều container chạy đồng thời trên một **host** (Docker host)
 - Container gọn nhẹ hơn vì chúng chạy không chạy trên môi trường ảo hóa, mà chạy trực tiếp trên kernel của máy host. Môi trường máy ảo (virtualBox, VMWare, Hyper-V,...) tốn thêm tài nguyên cho OS
 ![Docker vs VM](https://user-images.githubusercontent.com/34535573/94597549-e89ff580-02b7-11eb-8de0-b578e969279b.png)
 
