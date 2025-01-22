@@ -14,4 +14,4 @@
 1. Cách để khởi chạy các service theo thứ tự. Ví dụ: service webapp đợi service mysql sẵn sàng để khỏi chạy
 
 1. Dựa vào những câu hỏi đã thực hiện ở những phần trước và Compose file reference, viết docker compose file cho một dự án mà bạn đã thực hiện.\
-Sử dụng bind mount để cập nhật source code trong container và cài đặt auto reload (nếu có thể).
+Sử dụng bind mount để cập nhật source code trong container và cài đặt hot reload (nếu có thể).
